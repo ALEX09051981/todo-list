@@ -1,0 +1,7 @@
+<div class="sidebar">
+  <a href="{% url 'home' %}">Головна</a>
+  <a href="{% url 'tag-list' %}">Теги</a>
+</div>
+<div class="content">
+  {% block content %}{% endblock %}
+</div>
